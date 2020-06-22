@@ -12,7 +12,7 @@ namespace SimpleCsv
         /// </summary>
         /// <param name="stream">The stream to read</param>
         /// <param name="onReadAction">After each record, the action to call with a string array for the row</param>
-        public static void Parse(Stream stream, Action<string[]> onReadAction)
+        public static bool Parse(Stream stream, Action<string[]> onReadAction)
         {
             // Used as a buffer for each column
             byte[] columnBuffer = new byte[1024];
@@ -33,6 +33,8 @@ namespace SimpleCsv
                     onReadAction(ReadLine(streamReader, columnBuffer, numColumns));
                 }
             }
+
+            return true;
         }
         
         private static string[] ReadLine(StreamReader streamReader, byte[] columnBuffer, int numberOfColumns = 10)

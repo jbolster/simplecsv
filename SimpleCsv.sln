@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCsv", "SimpleCsv\Simp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApp", "ExampleApp\ExampleApp.csproj", "{527273F3-3EA1-4EB5-A69A-6CCC01601F76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCsv.Benchmark", "SimpleCsv.Benchmark\SimpleCsv.Benchmark.csproj", "{DA27F8B9-D3D4-4865-87C7-7E36EC967EF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{527273F3-3EA1-4EB5-A69A-6CCC01601F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{527273F3-3EA1-4EB5-A69A-6CCC01601F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{527273F3-3EA1-4EB5-A69A-6CCC01601F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA27F8B9-D3D4-4865-87C7-7E36EC967EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA27F8B9-D3D4-4865-87C7-7E36EC967EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA27F8B9-D3D4-4865-87C7-7E36EC967EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA27F8B9-D3D4-4865-87C7-7E36EC967EF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

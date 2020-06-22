@@ -1,3 +1,5 @@
+.idea
+.vscode/
 testdata/
 
 ## Ignore Visual Studio temporary files, build results, and
